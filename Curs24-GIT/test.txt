@@ -1,0 +1,1 @@
+Numele sau un string, nu conteaza.
