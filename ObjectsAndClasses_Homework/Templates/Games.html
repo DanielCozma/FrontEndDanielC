@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Games list</title>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+            integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+            crossorigin="anonymous"></script>
+  <script type="text/javascript" src="../Models/Games.js"></script>
+  <script type="text/javascript" src="../Models/Game.js"></script>
+  <script type="text/javascript" src="../Views/GamesView.js"></script>
+  <style> h3 {color:red;} h1 {color:blue;}</style>
+</head>
+<body>
+  <ul id="games-list"></ul>  
+  <h1>Post Game</h1>
+  <input type="text" name="gameName" placeholder="Game Name"></br>
+  <input type="text" name="gameDescription" placeholder="Game Description"></br>
+  <input type="url" name="gameUrl" placeholder="Game URL"></br>
+  <button id="postGame">Post Game</button>
+</body>
+</html>

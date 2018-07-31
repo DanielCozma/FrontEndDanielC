@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JS Basics</title>
+<!--   <script src="JS/Workshop.js"></script> -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <script src="JS/Script.js"></script>
+  </head>
+<body>
+  <h1>JS DOM MANIPULATION Homework</h1>
+ 
+  <p id="okMessage" style="background-color: green; color:white; text-style:strong; width: 600px;"></p>
+  
+  <h2>Contact form</h2>
+  <div style='background-color:pink;border:solid 1px black; height:400px; width: 600px;'>
+  <form method="GET" onsubmit="return false" style='width=350px; display: inline-block;'>
+<!-- 	<label>First name</label> -->
+	<input id="firstName" placeholder="First Name" name="f_Name" type="text" style="margin: 20px 1% 10px 10px;">
+  </br>
+<!-- 	<label>Last name</label> -->
+	<input id="lastName" placeholder="Last Name" name="l_Name" type="text" style="margin: 10px 1% 20px 10px;">
+	</br>
+  <label style="margin: 10px 1% 20px 10px;">Gender</label>
+  </br>
+  <input type="radio" name="gen" value="male" style="margin: 0px 0px 0px 30px;">M<br>
+  <input type="radio" name="gen" value="female" style="margin: 0px 0px 0px 30px;">F<br>
+	</br>
+	<textarea name="" id="textUser" cols="30" rows="10" style="margin: 10px 1% 20px 10px;" placeholder="Your message here..."></textarea>
+	</br>
+<button id="btn-submit" style="background-color: blue; color:white; text-style:strong; margin: 0px 10px 10px 180px;">Submit</button>
+</form>
+<div style='float:right; margin: 100px 25px 100px 25px;'><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/CJROCluj-Napoca_19.jpg/290px-CJROCluj-Napoca_19.jpg" alt="Poster" height="200" width="250"></div>
+</div>
+</body>
+</html>
